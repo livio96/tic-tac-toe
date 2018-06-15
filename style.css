@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', italics;
+  font-size: 55px;
+}
+div {
+  text-align: center;
+  margin: 0px auto;
+    text-align: center;
+  margin: auto;
+}
+body {
+    background-color: antiquewhite;
+}
+
+.board_cell {
+  width:150px;
+  height:150px;
+  border: 5px solid black;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+
+}
+
+fieldset {
+  text-align: center;
+  margin: auto;
+}
+
+.board_cell:hover {
+  background: cyan;
+  text-align: center;
+}
+
+.reset_button {
+    border: 1px solid green ; 
+    font-size: 25px; 
+    padding: 5px; 
+    background-color: white; 
+    color: black; 
+    width: 140px; 
+    height: 40px;
+    position: absolute; 
+    top:20px; 
+    left: 200px; 
+    
+}
+
+.reset_button:hover {
+    background-color: green; 
+}
